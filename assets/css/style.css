@@ -1106,11 +1106,17 @@
   .aspect-10\/5 {
     aspect-ratio: 10/5;
   }
+  .aspect-50\/50 {
+    aspect-ratio: 50/50;
+  }
   .aspect-60\/60 {
     aspect-ratio: 60/60;
   }
   .aspect-80\/80 {
     aspect-ratio: 80/80;
+  }
+  .aspect-148\/42 {
+    aspect-ratio: 148/42;
   }
   .aspect-228\/285 {
     aspect-ratio: 228/285;
@@ -2369,8 +2375,8 @@
   .bg-\[url\(\'\.\.\/img\/services\/contact-form-bg\.png\'\)\] {
     background-image: url('../img/services/contact-form-bg.png');
   }
-  .bg-\[url\(\'\/assets\/img\/\/demo-page\/banner-bg-1\.png\'\)\] {
-    background-image: url('/assets/img//demo-page/banner-bg-1.png');
+  .bg-\[url\(\'\/assets\/img\/demo-page\/banner-bg-1\.png\'\)\] {
+    background-image: url('/assets/img/demo-page/banner-bg-1.png');
   }
   .bg-\[url\(\'\/assets\/img\/services\/contact-form-bg\.png\'\)\] {
     background-image: url('/assets/img/services/contact-form-bg.png');
