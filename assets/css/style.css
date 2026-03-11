@@ -1355,6 +1355,9 @@
   .max-h-76\.5 {
     max-height: calc(var(--spacing) * 76.5);
   }
+  .max-h-100 {
+    max-height: calc(var(--spacing) * 100);
+  }
   .max-h-102\.5 {
     max-height: calc(var(--spacing) * 102.5);
   }
@@ -1366,9 +1369,6 @@
   }
   .max-h-225 {
     max-height: calc(var(--spacing) * 225);
-  }
-  .max-h-\[400px\] {
-    max-height: 400px;
   }
   .max-h-full {
     max-height: 100%;
