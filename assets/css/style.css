@@ -6783,17 +6783,17 @@
     cursor: pointer;
   }
   input[type="number"] {
-    -webkit-appearance: none !important;
-    -moz-appearance: textfield !important;
-    appearance: none !important;
-    &::-webkit-inner-spin-button, &::-webkit-outer-spin-button {
-      -webkit-appearance: none;
-      margin: 0;
-      display: none;
-    }
-    &[type=number] {
-      -moz-appearance: textfield;
-    }
+    appearance: textfield;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+  }
+  input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    display: none;
+  }
+  input[type="number"] {
+    -moz-appearance: textfield;
   }
 }
 .container, .container-fluid {
@@ -7217,7 +7217,7 @@ section .pin-spacer {
       top: 100% !important;
       left: 0 !important;
       margin-top: 4px;
-      max-height: 200px;
+      max-height: 210px;
       overflow-y: auto;
     }
   }
