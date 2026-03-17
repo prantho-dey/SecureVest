@@ -3888,11 +3888,6 @@
       height: calc(var(--spacing) * 153);
     }
   }
-  .sm\:min-h-0 {
-    @media (width >= 640px) {
-      min-height: calc(var(--spacing) * 0);
-    }
-  }
   .sm\:w-1\/2 {
     @media (width >= 640px) {
       width: calc(1/2 * 100%);
