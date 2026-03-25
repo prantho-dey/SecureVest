@@ -1148,6 +1148,33 @@
   .aspect-700\/400 {
     aspect-ratio: 700/400;
   }
+  .aspect-788\/336 {
+    aspect-ratio: 788/336;
+  }
+  .aspect-788\/362 {
+    aspect-ratio: 788/362;
+  }
+  .aspect-788\/401 {
+    aspect-ratio: 788/401;
+  }
+  .aspect-788\/481 {
+    aspect-ratio: 788/481;
+  }
+  .aspect-788\/536 {
+    aspect-ratio: 788/536;
+  }
+  .aspect-788\/587 {
+    aspect-ratio: 788/587;
+  }
+  .aspect-788\/616 {
+    aspect-ratio: 788/616;
+  }
+  .aspect-788\/701 {
+    aspect-ratio: 788/701;
+  }
+  .aspect-788\/803 {
+    aspect-ratio: 788/803;
+  }
   .aspect-835\/310 {
     aspect-ratio: 835/310;
   }
@@ -1174,33 +1201,6 @@
   }
   .aspect-\[318\/179\] {
     aspect-ratio: 318/179;
-  }
-  .aspect-\[788\/336\] {
-    aspect-ratio: 788/336;
-  }
-  .aspect-\[788\/362\] {
-    aspect-ratio: 788/362;
-  }
-  .aspect-\[788\/401\] {
-    aspect-ratio: 788/401;
-  }
-  .aspect-\[788\/481\] {
-    aspect-ratio: 788/481;
-  }
-  .aspect-\[788\/536\] {
-    aspect-ratio: 788/536;
-  }
-  .aspect-\[788\/587\] {
-    aspect-ratio: 788/587;
-  }
-  .aspect-\[788\/616\] {
-    aspect-ratio: 788/616;
-  }
-  .aspect-\[788\/701\] {
-    aspect-ratio: 788/701;
-  }
-  .aspect-\[788\/803\] {
-    aspect-ratio: 788/803;
   }
   .aspect-square {
     aspect-ratio: 1 / 1;
@@ -1345,6 +1345,9 @@
   }
   .h-full {
     height: 100%;
+  }
+  .h-full\! {
+    height: 100% !important;
   }
   .h-px {
     height: 1px;
@@ -2039,6 +2042,10 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0px;
+  }
   .border-2 {
     border-style: var(--tw-border-style);
     border-width: 2px;
@@ -2372,9 +2379,6 @@
   .bg-\[url\(\'\.\.\/img\/services\/contact-form-bg\.png\'\)\] {
     background-image: url('../img/services/contact-form-bg.png');
   }
-  .bg-\[url\(\'\/assets\/img\/demo-page\/banner-bg-1\.png\'\)\] {
-    background-image: url('/assets/img/demo-page/banner-bg-1.png');
-  }
   .bg-\[url\(\'\/assets\/img\/services\/contact-form-bg\.png\'\)\] {
     background-image: url('/assets/img/services/contact-form-bg.png');
   }
@@ -2432,6 +2436,9 @@
   }
   .object-center {
     object-position: center;
+  }
+  .p-0 {
+    padding: calc(var(--spacing) * 0);
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
@@ -2739,6 +2746,9 @@
   .text-\[40px\] {
     font-size: 40px;
   }
+  .text-\[60px\] {
+    font-size: 60px;
+  }
   .text-\[64px\] {
     font-size: 64px;
   }
@@ -2884,9 +2894,6 @@
   }
   .text-\[\#E5E5E5\] {
     color: #E5E5E5;
-  }
-  .text-\[60\] {
-    color: 60;
   }
   .text-black {
     color: var(--color-black);
@@ -3634,6 +3641,28 @@
     &:focus {
       --tw-outline-style: none;
       outline-style: none;
+    }
+  }
+  .focus-visible\:ring-2 {
+    &:focus-visible {
+      --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+    }
+  }
+  .focus-visible\:ring-primary {
+    &:focus-visible {
+      --tw-ring-color: var(--color-primary);
+    }
+  }
+  .focus-visible\:ring-secondary {
+    &:focus-visible {
+      --tw-ring-color: var(--color-secondary);
+    }
+  }
+  .focus-visible\:ring-offset-0 {
+    &:focus-visible {
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-shadow: var(--tw-ring-inset,) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
     }
   }
   .disabled\:pointer-events-none {
@@ -4925,6 +4954,11 @@
   .md\:gap-10 {
     @media (width >= 769px) {
       gap: calc(var(--spacing) * 10);
+    }
+  }
+  .md\:gap-12 {
+    @media (width >= 769px) {
+      gap: calc(var(--spacing) * 12);
     }
   }
   .md\:gap-15 {
@@ -6348,6 +6382,11 @@
       font-size: 64px;
     }
   }
+  .xl\:text-\[80px\] {
+    @media (width >= 1280px) {
+      font-size: 80px;
+    }
+  }
   .xl\:text-\[150px\] {
     @media (width >= 1280px) {
       font-size: 150px;
@@ -6357,11 +6396,6 @@
     @media (width >= 1280px) {
       --tw-leading: 1;
       line-height: 1;
-    }
-  }
-  .xl\:text-\[80\] {
-    @media (width >= 1280px) {
-      color: 80;
     }
   }
   .\32 xl\:block {
@@ -6499,6 +6533,12 @@
       line-height: 1.5;
     }
   }
+  .prose-p\:leading-normal {
+    & :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
+      --tw-leading: var(--leading-normal);
+      line-height: var(--leading-normal);
+    }
+  }
   .prose-p\:text-paragraph_black {
     & :is(:where(p):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
       color: var(--color-paragraph_black);
@@ -6547,14 +6587,14 @@
       font-style: normal;
     }
   }
-  .prose-em\:prose-a\:\!font-primary {
+  .prose-em\:prose-a\:font-primary\! {
     & :is(:where(em):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
       & :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
         font-family: var(--font-primary) !important;
       }
     }
   }
-  .prose-em\:prose-a\:\!text-paragraph_black {
+  .prose-em\:prose-a\:text-paragraph_black\! {
     & :is(:where(em):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
       & :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *))) {
         color: var(--color-paragraph_black) !important;
